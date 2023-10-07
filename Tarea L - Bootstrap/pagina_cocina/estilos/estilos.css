@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+header{
+    background-color: palevioletred;
+}
+
+
+
+.logo img{
+    max-width: 15%;
+    border-radius: 2rem;
+    
+}
+
+section{
+    display: flex;
+    width: 1500px;
+    height: 322px;
+  }
+  section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section img:hover{
+    cursor: crosshair;
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+article img{
+    
+    border-radius: 2rem;
+    width: 600px;
+    height: 325px;
+    
+}
+
+.nosotros{
+  line-height: 2em;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a9597
+}
+
+.card_primero{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a9597
+
+}
+
+.color{
+  background-color: #4B4B4B;
+}
+
+

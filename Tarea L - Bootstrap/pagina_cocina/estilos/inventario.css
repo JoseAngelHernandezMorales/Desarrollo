@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+header{
+    background-color: palevioletred;
+}
+
+
+
+.logo img{
+    max-width: 15%;
+    border-radius: 2rem;
+    
+}
+
+
+ 
+
+
+
+.card{
+  width: 18rem; 
+  border: 3px solid #64194f;
+
+}
+
+.btn, 
+.btn-primary{
+  border: 2px solid rgb(102, 4, 86); 
+  background-color: #350327;
+}
+
+
+.text-white{
+  background-color: #21081a;
+}
+
+.p-3{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fw-light{
+  border-style: solid;border-width: 3px;border-color: #21081a;
+}
+
+
+.btn-outline-secondary{
+  position: relative;left: 50px;
+}
+
+.col-12
+.titulo{
+  font-family: 'Mogra', cursive; color: #5a1647;
+  font-size:80px;
+}
+
+.ingre,
+.proce{
+  border-style: solid;
+  color: #ca34a0;
+}
+
+.admin{
+  color: #35353570;
+}
+
+.botona{
+  position: relative;
+  left: 50px;
+}
+
+.page-link{
+  color:rgb(255, 255, 255);
+  border-style:solid;
+  border-width: 3px;
+  background-color: rgb(196, 54, 160);
+  border-color: #21081a;
+}
+
+.pro{
+  padding-bottom: 20px;
+}
+
+
+
+
+.content-table{ border-collapse: collapse; margin: 25px 0; font-size: 1em; font-family: sans-serif; min-width: 450px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+.content-table thead tr { background-color: #980081; color: #ffffff; text-align: middle; }
+
+.content-table th, .styled-table td { padding: 12px 15px; }
+
+.content-table tr { border-bottom: 1px solid #dddddd; } .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; } .content-table tbody tr:last-of-type { border-bottom: 2px solid #009879; }
+
+table {
+    width: 220%;
+    height: 350px;
+  }
